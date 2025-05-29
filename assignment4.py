@@ -12,7 +12,7 @@ class dept:
         print(f"HOD: {self.hod}")
 
 
-# Input number of departments
+
 dept_count = int(input("Enter number of departments: "))
 l = []
 
@@ -26,12 +26,11 @@ for i in range(dept_count):
     dept1 = dept(id, dname, location, hod)
     l.append(dept1)
 
-# Display all departments
 print("\n--- Department Details ---")
 for department in l:
     department.display_info()
 
-# Search menu
+
 print("\n--- Search Department ---")
 print("1. Search by Department ID")
 print("2. Search by Department Name")
